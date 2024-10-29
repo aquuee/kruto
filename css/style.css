@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 0.8em;
+    font-family: "Press Start 2P", system-ui;
+}
+
+body{
+    background-color: rgb(241, 191, 150);
+}
+
+header{
+    background-color: rgb(151, 95, 62);
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(158, 99, 59);
+    padding: 10px 50px;
+}
+
+.about{
+    background-color: rgb(233, 197, 167);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}   
+
+h1{
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    text-align: center;
+    font-style: oblique;
+    font-size: 2em;
+    padding: 0.5em;
+    text-transform: lowercase;
+}
+
+h2{
+    font-family: "Danfo", serif;
+    text-decoration: underline;
+    text-align: center;;
+    font-style: oblique;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1.25em;
+    line-height: 2rem;
+    margin-bottom: 1em;
+}
+
+.avatar{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+
+.articles{
+    padding: 20px 50px;
+}
+.content {
+    padding: 20px 50px;
+}
+a:link {
+    color: red;
+}
+a:link:hover {
+    color: rgb(90, 0, 0);
+}
+a:visited {
+    color:orange;
+}
+a:focus {
+    color:blue;
+}
+a:hover {
+    color:green;
+    text-decoration: underline;
+}
+a:active {
+    color:blueviolet;
+}
+.page-list {
+    background-color: rgb(151, 95, 62);
+}
+.page-list :nth-child(odd) {
+    background-color: rgb(151, 62, 62);
+}
+h2::before {
+    content: "mega ";
+    font-size: 10px;
+    margin-left: 10px;
+    color: red;
+}
+h3{
+    text-align: center;
+    font-size: 8px;
+}
+.kartinochkas {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+.k1 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+.k2 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+.k3 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+.k4 {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+.KRUTO {
+    size: 10px;
+}
+dd {
+    margin-bottom: 1em;
+}
+.table-example {
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+.table-example td,
+.table-example th {
+    border-bottom: black 1px solid;
+}
+.table-example td:nth-child(3) {
+    color: black ;
+}
+.table-example tr:nth-child(odd) {
+    background-color: brown;
+}
+#form-example {
+    width: 300px;
+    margin: 20px auto;
+}
+#form-example input[type="submit"] {
+    background-color: aquamarine;
+    border: 1px rgb(0, 82, 75) solid;
+    padding: 7px 15px;
+    color: rgb(0, 95, 75);
+    border-radius: 5px;
+}
+#form-example input[type="submit"]:hover {
+    background-color: rgb(10, 177, 207);
+    border-radius: 7px;
+}
+#form-example input[type="submit"]:disabled {
+    background-color: lightgray;
+    border: 1px solid gray;
+    color: gray;
+}
+#form-example input[type="text"],
+#form-example input[type="password"] {
+    background-color: lavender;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;    
+}
+#form-example input[type="text"]:hover,
+#form-example input[type="password"]:hover {
+    background-color: lavenderblush;
+}
+dl p::after {
+    content: "Важно! ";
+    border: 1px solid rgb(61, 102, 236);
+    text-decoration: underline;
+    font-size: 10px;
+    color: rgb(61, 102, 236);
+    background-color: beige;
+    border-bottom: black;
+}
+.ye {
+    letter-spacing: .3rem;
+}
+.yee {
+    letter-spacing: .3rem;
+}
+.yeee {
+    letter-spacing: .3rem;
+}
+.yeeee {
+    letter-spacing: .3rem;
+}
+q:lang(en) {
+    quotes: "\201C" "\201D";
+    text-decoration: underline;
+}
+.about p {
+    background-color: darksalmon;
+}
+footer img {
+    border: 5px solid black;
+}a + p {
+    margin: 20px;
+}
