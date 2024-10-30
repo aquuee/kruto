@@ -9,35 +9,54 @@ html{
 }
 
 body{
-    background-color: rgb(241, 191, 150);
+    background-color: #f5faff;
+    color: #333333;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 header{
-    background-color: rgb(151, 95, 62);
+    background-color: #008542;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
 footer{
-    background-color: rgb(158, 99, 59);
-    padding: 10px 50px;
+    background-color: #008542;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
 }
 
 .about{
-    background-color: rgb(233, 197, 167);
+    background-color: #ddffec;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
 }   
 
 h1{
-    color: rgb(0, 0, 0);
-    text-decoration: overline;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
     text-align: center;
     font-style: oblique;
-    font-size: 2em;
-    padding: 0.5em;
-    text-transform: lowercase;
 }
 
 h2{
@@ -68,36 +87,29 @@ p{
 .content {
     padding: 20px 50px;
 }
-a:link {
-    color: red;
-}
-a:link:hover {
-    color: rgb(90, 0, 0);
+a {
+    color: #00ff80;
 }
 a:visited {
-    color:orange;
-}
-a:focus {
-    color:blue;
+    color:#1d1d1d;
 }
 a:hover {
-    color:green;
-    text-decoration: underline;
+    color: #003366;
 }
 a:active {
-    color:blueviolet;
+    color:#5f1491;
 }
 .page-list {
-    background-color: rgb(151, 95, 62);
+    background-color: #ddffec;
 }
 .page-list :nth-child(odd) {
-    background-color: rgb(151, 62, 62);
+    background-color: #95c9ab;
 }
 h2::before {
     content: "mega ";
     font-size: 10px;
     margin-left: 10px;
-    color: red;
+    color: #008542;
 }
 h3{
     text-align: center;
@@ -134,21 +146,38 @@ h3{
 dd {
     margin-bottom: 1em;
 }
-.table-example {
-    border: 2px black solid;
-    border-collapse: collapse;
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #148141;
 }
-.table-example td,
-.table-example th {
-    border-bottom: black 1px solid;
+
+th {
+    background-color: #00663c;
+    color: #ffffff;
+    padding: 10px;
 }
-.table-example td:nth-child(3) {
-    color: black ;
+
+td {
+    padding: 10px;
+    text-align: center;
 }
-.table-example tr:nth-child(odd) {
-    background-color: brown;
+
+tr:nth-child(even) {
+    background-color: #e6fffa;
 }
-#form-example {
+
+td:first-child {
+    font-weight: bold;
+    color: #006633;
+}
+
+tr:last-child {
+    background-color: #d0ffef;
+    font-style: italic;
+}
+/* #form-example {
     width: 300px;
     margin: 20px auto;
 }
@@ -177,7 +206,54 @@ dd {
 }
 #form-example input[type="text"]:hover,
 #form-example input[type="password"]:hover {
-    background-color: lavenderblush;
+    background-color: lavenderblush; 
+}
+    */
+
+#contact-cool {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0fff9;
+    border: 1px solid #cffff3;
+    border-radius: 10px;
+}
+
+.form_xdd {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #006647;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #cfffef;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #006633;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00a566;
+}
+
+textarea {
+    resize: vertical;
 }
 dl p::after {
     content: "Важно! ";
@@ -205,10 +281,23 @@ q:lang(en) {
     text-decoration: underline;
 }
 .about p {
-    background-color: darksalmon;
+    background-color: #95c9ab;
 }
 footer img {
     border: 5px solid black;
 }a + p {
     margin: 20px;
+}
+.table-example td li {
+    background-color: black;
+}
+.table-example td p {
+    background-color: black;
+}
+
+.form_xdd {
+    margin-bottom: 20px;
+}
+.W::first-line {
+    letter-spacing: 10px;
 }
